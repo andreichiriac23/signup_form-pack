@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 /* reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
@@ -38,10 +32,10 @@ body{
 }
 
 .main h2,.main h3{
-	font-size: 1em;
+	font-size: 1.2em;
 	text-align: center;
 	color:#fff;
-	padding:1em 0;
+	padding:1.2em 0;
 	font-family: 'Oxygen', sans-serif;
 }
 .main h3{
@@ -49,6 +43,14 @@ body{
 	text-align:left;
 	font-family: 'Oxygen', sans-serif;
 }
+.main h4{
+	font-size: 1em;
+	text-align: center;
+	color:#fff;
+	padding:1em 0;
+	font-family: 'Oxygen', sans-serif;
+}
+
 
 ul.facebook{
 	list-style:none;
@@ -74,38 +76,42 @@ ul.facebook li{
 	margin-top: 5px;
 }
 ul.facebook:hover{
-	background: #5D7BBA;
+	background: #1888A8;
 }
 
-ul.twitter{
+ul.google{
 	list-style:none;
 	padding:0;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
-	background:#55ACEE;
+	background:#dd4b39;
 	padding: 12px;
 }
-i.tw{
+i.goo{
 	width:30px;
 	height:30px;
-	background:url(../images/tw.png);
+	background:url(../images/goo.png);
 	float:left;
 	margin-right: 2em;
 }
-ul.twitter li{
+ul.google li{
 	color:#fff;
 	font-size:1em;
 	float: left;
 	margin-top: 5px;
 }
-ul.twitter:hover{
-	background: #71B8ED;
+ul.google:hover{
+	background: #1888A8;
 }
 span.term a{
 	color: #1888A8;
 	font-weight: bold;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
 }
 span.term a:hover{
 	color:#fff;
@@ -122,10 +128,10 @@ span.term a:hover{
 	font-weight: 600;
 	margin-left: 3px;
 	background: #FFFFFF;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
 	border-left: 6px solid #fff;
 	border-bottom: none;
 	border-right: none;
@@ -149,10 +155,10 @@ span.term a:hover{
 	font-weight: 700;
 	font-family: 'Oxygen', sans-serif;
 	background: #ffffff;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
 	border-left: 6px solid #fff;
 	border-bottom: none;
 	border-right: none;
@@ -177,13 +183,33 @@ input[type=submit] {
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	outline:none;
-	width: 100%;
+	width: 100.5%;
 	-webkit-appearance: none;
 }
 .submit input[type=submit]:hover {
 	 background:#07793D;
 	 border:1px solid #07793D;
 }
+
+.submit1{
+	padding:5px 4px;
+	text-align: center;
+	}
+
+input[type=submit1] {
+	padding: 17px 30px;
+	color: #fff;
+	float: right;
+	font-family: 'Oxygen', sans-serif;
+	background: #40A46F;
+	border: 1px solid #40A46F;
+	font-size: 18px;
+	outline:none;
+	text-align: center;
+	width: 92.4%;
+	-webkit-appearance: none;
+}
+
 /**start-copy-right**/
 .copy-right {
 	text-align: center;
@@ -240,7 +266,7 @@ input[type=submit] {
 .span_1_of_f {
 	width: 50%;
 }
-i.fb, i.tw {
+i.fb, i.goo {
 	margin-right: 1em;
 }
 .main {

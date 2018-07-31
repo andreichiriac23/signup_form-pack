@@ -33,24 +33,25 @@
       </div>
       <h2>Sau înregistrează-te</h2>
 		<form>
-		   <div class="lable">
-		        <div class="col_1_of_2 span_1_of_2"><input type="text" class="text" value="Prenume" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Prenume';}" ></div>
+		  <div class="lable">
+		        <div class="col_1_of_2 span_1_of_2"><input type="text" class="text" value="Prenume" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Prenume';}"required"></div>
                 <div class="col_1_of_2 span_1_of_2"><input type="text" class="text" value="Nume" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nume';}"></div>
                 <div class="clear"> </div>
-		   </div>
+			</div>	
 		   <div class="lable-2">
-		        <input type="text" class="text" value="E-Mail (ex: user@name.com)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-Mail (ex: user@name.com)';}" >
-				<input type="password" class="text" placeholder="Parola" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
-				<input type="password" class="text" placeholder="Reintroduceți parola" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+		        <input type="text" class="text" value="E-Mail (ex: user@name.com)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-Mail (ex: user@name.com)';}">
+				<input type="password" class="text" placeholder="Parola" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';} ">
+				<input type="password" class="text" placeholder="Reintroduceți parola">
 		   </div>
-		   <h3>Prin crearea unui cont sunteți de acord cu <span class="term"><a href="#">Termenii și Condițiile</a></span> noastre.</h3>
-		   <div class="button">
-			  <input type="button" onclick="window.location.href='confirmation.html';" value="Crează contul"  >
+		   <h3>Prin crearea unui cont sunteți de acord cu <span class="term"><a href="terms_conditions.html">Termenii și Condițiile</a></span> noastre.</h3>
+		   <div class="submit">
+			  <input type="submit" onclick="window.location.href='confirmation.html';" value="Crează contul"  >
 			  
 		   </div>
 
 
 		   <div class="clear"> </div>
+		   
 		</form>
 	<!--	<h3>Ai deja cont? Apasă <span class="term"><a href="login.html">aici</a></span></h3> <h4>Ai uitat parola? Apasă <span class="term"><a href="recover.html">aici</a></span></h4> -->
 		

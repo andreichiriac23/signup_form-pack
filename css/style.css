@@ -176,7 +176,7 @@ input[type=submit] {
 	font-family: 'Oxygen', sans-serif;
 	background: #40A46F;
 	border: 1px solid #40A46F;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	font-size: 18px;
 	transition: all 0.5s ease-out;
 	-webkit-transition: all 0.5s ease-out;
@@ -184,7 +184,7 @@ input[type=submit] {
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	outline:none;
-	width: 100.5%;
+	width: 102.2%;
 	-webkit-appearance: none;
 }
 .submit input[type=submit]:hover {
@@ -192,24 +192,6 @@ input[type=submit] {
 	 border:1px solid #07793D;
 }
 
-.submit1{
-	padding:5px 4px;
-	text-align: center;
-	}
-
-input[type=submit1] {
-	padding: 17px 30px;
-	color: #fff;
-	float: right;
-	font-family: 'Oxygen', sans-serif;
-	background: #40A46F;
-	border: 1px solid #40A46F;
-	font-size: 18px;
-	outline:none;
-	text-align: center;
-	width: 92.4%;
-	-webkit-appearance: none;
-}
 .button{
 	padding:5px 4px;
 	text-align: center;
@@ -239,6 +221,7 @@ input[type=button] {
 	width: 100.7%;
 	-webkit-appearance: none;
 }
+
 
 
 /**start-copy-right**/

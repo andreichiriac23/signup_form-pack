@@ -142,7 +142,7 @@ span.term a:hover{
 	color:rgb(92, 92, 92);
 	border-left:6px solid#40A46F;
 }
-.lable-2 input[type="text"],input[type="Password"] { 
+.lable-2 input[type="email"],input[type="password"] { 
 	padding: 14px;
 	width: 94%;
 	font-size: 1em;

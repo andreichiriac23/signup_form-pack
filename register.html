@@ -34,13 +34,13 @@
       <h2>Sau înregistrează-te</h2>
 		<form>
 		   <div class="lable-2">
-		        <input type="text" class="text" value="E-Mail (ex: user@name.com)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-Mail (ex: user@name.com)';}" required="true">
-				<input type="password" class="text" placeholder="Parola" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';} "required="true">
-				<input type="password" class="text" placeholder="Reintroduceți parola" required="true">
+		        <input type="email" class="text"  placeholder="E-Mail (ex: user@name.com)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-Mail (ex: user@name.com)';}" required>
+				<input type="password" class="text" placeholder="Parola" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';} " minlenght="6" required>
+				<input type="password" class="text" placeholder="Reintroduceți parola"  minlenght="6" required>
 		   </div>
 		   <h3>Prin crearea unui cont sunteți de acord cu <span class="term"><a href="terms_conditions.html">Termenii și Condițiile</a></span> noastre.</h3>
 		   <div class="submit">
-			  <input type="submit" onclick="window.location.href='confirmation.html';" value="Crează contul"  >
+			  <input type="submit" onclick="window.location.href='confirmation.html';" value="Crează contul">
 			  
 		   </div>
 
